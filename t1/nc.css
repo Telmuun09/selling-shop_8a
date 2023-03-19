@@ -1,70 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  .hard {
-    height: 7vh;
-    width: 100%;
-    background-color: blue;
-    display: flex;
-  }
-  .home {
-    height: 100%;
-    width: 5%;
-    font-size: 250%;
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .search {
-    height: 100%;
-    width: 40%;
-    background-color: black;
-  }
-  .searchicon {
-    height: 100%;
-    width: 5%;
-    font-size: 250%;
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .space {
-    height: 100%;
-    width: 35%;
-    background-color: black;
-    color: red;
-  }
-  .shop {
-    height: 100%;
-    width: 5%;
-    font-size: 240%;
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .shop i {
-    color: grey;
-  }
-  .content {
-    height: 100%;
-    width: 5%;
-    font-size: 240%;
-    background-color: purple;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .login {
-    height: 100%;
-    width: 5%;
-    font-size: 240%;
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+.hard {
+  height: 7vh;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+}
+.home {
+  height: 100%;
+  width: 5%;
+  font-size: 250%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  height: 100%;
+  width: 40%;
+  background-color: black;
+}
+.searchicon {
+  height: 100%;
+  width: 5%;
+  font-size: 250%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.space {
+  height: 100%;
+  width: 35%;
+  background-color: black;
+  color: red;
+}
+.shop {
+  height: 100%;
+  width: 5%;
+  font-size: 240%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop i {
+  color: grey;
+}
+.content {
+  height: 100%;
+  width: 5%;
+  font-size: 240%;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  height: 100%;
+  width: 5%;
+  font-size: 240%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

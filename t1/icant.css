@@ -5,7 +5,6 @@
 .hard{
     height: 7vh;
     width: 100%;
-    background-color: blue;
     display: flex;
 }
 .home{
@@ -20,7 +19,7 @@
 .search{
     height: 100%;
     width: 40%;
-    background-color: black;
+    background-color: grey;
 }
 .searchicon{
     height: 100%;
@@ -34,7 +33,6 @@
 .space{
     height: 100%;
     width: 35%;
-    background-color: black;
 }
 .shop{
     height: 100%;
@@ -62,4 +60,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.me{
+    height: 93vh;
+    width: 100%;
+    background-color: red;
+}
+.team{
+    height: 17%;
+    width: 100%;
+    background-color: blue;
+}
+.dream{
+    height: 80%;
+    width: 80%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    border-radius: 3%;
 }
