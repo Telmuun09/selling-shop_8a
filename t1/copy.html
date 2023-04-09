@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="copy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hard">
+        <div class="home">
+            
+            <a href="icant.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+        </div>
+        <div class="search">
+
+        </div>
+        <div class="searchicon">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            
+        </div>
+        <div class="space">
+
+        </div>
+        <div class="shop">
+            <a href="nc.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+        <div class="content">
+            <i class="fa fa-video-camera" aria-hidden="true"></i>
+        </div>
+        <div class="login">
+            <i class="fa fa-sign-in" aria-hidden="true"></i>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'login')">
+            Login
+          </button>
+          <button class="tablinks" onclick="openTab(event, 'signup')">
+            Signup
+          </button>
+        </div>
+  
+        <div id="login" class="tabcontent">
+          <input type="email" id="lemail" />
+          <input type="password" id="lpass" />
+          <button onclick="openTab(event, 'forgot')">forgot password</button>
+          <button onclick="Login()">Login</button>
+        </div>
+        <div id="forgot" class="tabcontent">
+          <button onclick="openTab(event, 'login')">back to login</button>
+          <p>your email</p>
+          <input type="email" id="femail" />
+          <button onclick="Forgot()">check user</button>
+          <hr />
+          <p>Your secret question is:</p>
+          <p id="secretQuestion"></p>
+          <p>Your answer</p>
+          <input type="text" id="sAnswer" />
+          <button onclick="Check()">check answer</button>
+          <p>your pass was:</p>
+          <p id="fpass"></p>
+        </div>
+  
+        <div id="signup" class="tabcontent">
+          <p>firstname</p>
+          <input type="text" id="firstname" />
+          <p>lastname</p>
+          <input type="text" id="lastname" />
+          <p>birth date</p>
+          <input type="date" id="birth" />
+          <p>email</p>
+          <input type="email" id="email" />
+          <p>password</p>
+          <input type="text" id="passOne" />
+          <p>rewrite password</p>
+          <input type="text" id="passTwo" />
+          <p>secret question</p>
+          <input type="text" id="question" />
+          <p>secret question answer</p>
+          <input type="text" id="answer" />
+          <button onclick="Signup()">Signup</button>
+        </div>
+      </div>
+      <script src="./Login.js"></script>
+</body>
+</html>

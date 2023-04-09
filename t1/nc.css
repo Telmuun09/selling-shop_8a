@@ -17,6 +17,9 @@
   align-items: center;
   justify-content: center;
 }
+.home i{
+  color: gray;
+}
 .search {
   height: 100%;
   width: 40%;
@@ -30,6 +33,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.searchicon i{
+  color: gray;
 }
 .space {
   height: 100%;
@@ -47,7 +53,7 @@
   justify-content: center;
 }
 .shop i {
-  color: grey;
+  color: red;
 }
 .content {
   height: 100%;
@@ -58,6 +64,9 @@
   align-items: center;
   justify-content: center;
 }
+.content i{
+  color: gray;
+}
 .login {
   height: 100%;
   width: 5%;
@@ -66,4 +75,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.login i{
+  color: gray;
 }
