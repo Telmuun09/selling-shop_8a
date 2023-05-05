@@ -13,7 +13,7 @@ const products = [
     description: "Valorant",
     type: "point",
     image:
-      "https://static.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest?cb=20200408014952ps://thumbs.dreamstime.com/b/colorful-candy-background-8939634.jpg",
+"https://static.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest?cb=20200408014952",
   },
   {
     name: "2050 Valpoint",
