@@ -5,14 +5,13 @@
   .hard {
     height: 7vh;
     width: 100%;
-    background-color: blue;
+    background-color: black;
     display: flex;
   }
   .home {
     height: 100%;
     width: 5%;
     font-size: 250%;
-    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,19 +22,18 @@
   .search {
     height: 100%;
     width: 40%;
-    background-color: black;
+    background-color: gray;
   }
   .searchicon {
     height: 100%;
     width: 5%;
     font-size: 250%;
-    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .searchicon i{
-    color: gray;
+    color: greenyellow;
   }
   .space {
     height: 100%;
@@ -47,54 +45,46 @@
     height: 100%;
     width: 5%;
     font-size: 240%;
-    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .shop i {
-    color: grey;
+    color: greenyellow;
   }
   .content {
     height: 100%;
     width: 5%;
     font-size: 240%;
-    background-color: purple;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .content i{
-    color: gray;
+    color: greenyellow;
   }
   .login {
     height: 100%;
     width: 5%;
     font-size: 240%;
-    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .login i{
-    color: gray;
+    color: greenyellow;
   }
 .me{
     height: 93vh;
     width: 100%;
-    background-color: red;
-}
-.team{
-    height: 17%;
-    width: 100%;
-    background-color: blue;
+    background-color: black;
 }
 .dream{
     height: 80%;
     width: 80%;
-    background-color: yellow;
     display: flex;
     justify-content: center;
     font-size: 150%;
-    border-radius: 3%;
+    border: 4px solid grey;
+    border-radius: 25px;
 }
